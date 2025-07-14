@@ -209,7 +209,7 @@ WHERE
 	AND dl.height >= 64
 	AND dl.height <= 68
 	AND dl.hair_color = 'red'
-    AND dl.car_make = 'Tesla'
+	AND dl.car_make = 'Tesla'
 	AND dl.car_model = 'Model S'
 	AND fc.event_name = 'SQL Symphony Concert'
 	AND fc.date LIKE '201712%'
